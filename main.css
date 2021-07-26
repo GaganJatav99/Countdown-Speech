@@ -1,0 +1,33 @@
+button {
+    margin: 0 3px 10px 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 99px;
+  }
+  
+  button:last-of-type {
+    margin-left: 165px;
+  }
+  
+  p.borderBelow {
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+  }
+  
+  video {
+      margin-top: 20px;
+      margin-left: 30px;
+    vertical-align: top;
+    --width: 42vw;
+    width: var(--width);
+    height: calc(var(--width) * 0.5625);
+  }
+  
+  video:last-of-type {
+
+    margin: 20px 0 20px 150px ;
+  }
+  
+  video#gumVideo {
+    margin: 0 20px 20px 0;
+  }
